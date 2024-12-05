@@ -50,7 +50,7 @@ const Products = () => {
             className="w-full h-[300px] object-cover rounded-lg cursor-pointer"
           />
           <h3 className="text-2xl font-semibold pt-4 text-yellow-800 font-serif animate-pulse">
-            BEDROOM
+            BADROOM
           </h3>
         </div>
       </div>
