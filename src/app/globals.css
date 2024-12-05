@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.navbar__link:hover {
+  color: rgb(246, 176, 71);
+  transition: all 0.4s;
+}
+.navbar__link::after {
+  position: absolute;
+  content: "";
+  background-color: rgb(198, 133, 37);
+  height: 3px;
+  width: 100%;
+  bottom: -5px;
+  left: 0;
+  scale: 0;
+  transform-origin: left;
+  transition: all 0.4s;
+}
+
+.navbar__link:hover::after {
+  scale: 1;
+}
